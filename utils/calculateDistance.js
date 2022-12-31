@@ -1,5 +1,5 @@
 // calculate distance between 2 points based on long and lat coords:
-function getDistance(lat1, lat2, lon1, lon2) {
+export function getDistance(lat1, lat2, lon1, lon2) {
 
         lat1 = parseFloat(lat1);
         lat1 = parseFloat(lat2);
@@ -29,6 +29,12 @@ function getDistance(lat1, lat2, lon1, lon2) {
 }
 
 
+
+
+
+
+
+/*
 let homeLong = -0.777035;
 let homeLat = 51.641233;
 
@@ -41,3 +47,5 @@ let murcoLat = 51.643649;
 
 
 getDistance(homeLat, murcoLat, homeLong, murcoLong);
+
+*/
