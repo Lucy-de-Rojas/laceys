@@ -7,9 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "gitAll":"git add . && git commit -m 'auto-update' && git push"
+    "gitAll": "git add . && git commit -m 'auto-update' && git push"
   },
   "dependencies": {
+    "@lucyderojas/menu13-next": "^1.0.10",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.7",
     "next": "13.0.7",
