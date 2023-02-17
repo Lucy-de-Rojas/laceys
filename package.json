@@ -13,7 +13,7 @@
     "@lucyderojas/menu13-next": "^1.0.10",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.7",
-    "next": "13.0.7",
+    "next": "13.1.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }
