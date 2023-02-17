@@ -1,0 +1,50 @@
+
+
+.burgerAndLogoWrapper {
+    background-color: rgb(237, 143, 143);
+    width: 100%;
+    display: flex;
+}
+
+
+.logoWrapper {
+    width: 50%;
+}
+
+
+
+.burgerMenuWrapper {
+    /* background-color: rgb(108, 228, 108); */
+    width: 25%;
+    padding: 0 0 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.menuWrapper {
+    width: 100%;
+    position: relative;
+    background-color: green;
+
+    transform: translateX(-150%);
+    transition: transform  0.8s ease-in-out;
+
+
+}
+
+
+.menu {
+    width: 100%;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
