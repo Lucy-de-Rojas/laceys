@@ -1,0 +1,43 @@
+[{]*"id":\s\d*,
+
+[{]*"id":\s\d*,\r*\t*\s*"postcode":\s"BB
+
+
+[{]*"id":\s\d*,\r*\t*\s*"postcode":\s"[B]*\w*\s*\w*",
+
+
+
+
+[{]*"id":\s\d*,\r*\t*\s*"postcode":\s"[B]*\w*\s*\w*",\r*\t*\s*"\w*":\s*\d*.\d*,\r*\t*\s*"\w*":\s*
+
+
+
+[{]*"id":\s\d*,\r*\t*\s*"postcode":\s"[B]*\w*\s*\w*",\r*\t*\s*"\w*":\s*\d*.\d*,\r*\t*\s*"\w*":\s*[-]*\d*.\d*\r*\t*\s*[}]*,
+
+
+
+
+final for BB:
+[{]\t*\r*\s*"id":\s\d*,\r*\t*\s*"postcode":\s"[B]*\w*\s*\w*",\r*\t*\s*"\w*":\s*\d*.\d*,\r*\t*\s*"\w*":\s*[-]*\d*.\d*\r*\t*\s*[}]*,
+
+
+
+
+
+
+
+
+
+[{]\t*\r*\s*"id":\s\d*,\r*\t*\s*"postcode":\s"[HP]\w*\s*\w*",\r*\t*\s*"\w*":\s*\d*.\d*,\r*\t*\s*"\w*":\s*[-]*\d*.\d*\r*\t*\s*[}]*,
+
+
+
+
+final for HP:
+[{]\r*\t*\s*"\w*":\s*\d*,\r*\t*\s*"\w*":\s*"HP\w*\s*\w*",\r*\t*\s*"\w*":\s*\d*.\d*,\r*\t*\s*"\w*":\s*-*\d*.*\d*\r*\t*\s*[}],
+
+
+
+
+final for SL:
+[{]\r*\t*\s*"\w*":\s*\d*,\r*\t*\s*"\w*":\s*"SL\w*\s*\w*",\r*\t*\s*"\w*":\s*\d*.\d*,\r*\t*\s*"\w*":\s*-*\d*.*\d*\r*\t*\s*[}],
