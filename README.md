@@ -146,7 +146,7 @@ In this project practised more with mysql and dynamic data search at API level.
 
 <h2>Recommendation:</h2>
 <i>
-Lucy worked with our business to help redesign and relaunch our website.  I found her very professional, and understanding of our requirements.  She was easy to work with and we were happy with the outcome of the project.
+Lucy worked with our business in years 2014-2016 to help redesign and relaunch our website.  I found her very professional, and understanding of our requirements.  She was easy to work with and we were happy with the outcome of the project.
 
 
 </i>
