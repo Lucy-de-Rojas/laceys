@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://laceys.vercel.app/
+
+# Sitemaps
+Sitemap: https://laceys.vercel.app/sitemap.xml

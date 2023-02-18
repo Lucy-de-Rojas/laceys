@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "gitAll": "git add . && git commit -m 'menu slding out' && git push"
+    "gitAll": "git add . && git commit -m 'menu slding out' && git push",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@lucyderojas/menu13-next": "^1.0.10",
@@ -16,6 +17,7 @@
     "hamburger-react": "^2.5.0",
     "mysql2": "^3.1.2",
     "next": "13.1.5",
+    "next-sitemap": "^3.1.52",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.43.1"
