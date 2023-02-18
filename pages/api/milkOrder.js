@@ -15,7 +15,7 @@ export default async function handler(req, res) {
     let friday = parseInt(data.friday);
     let sunday = parseInt(data.sunday);
 
-    let total =((monday + wednesday + friday + sunday)*0.7).toFixed(2);
+    let total =((monday + wednesday + friday + sunday)*0.7*4+10).toFixed(2);
 
 
 
