@@ -5,7 +5,7 @@ import Header1 from "../components/header1";
 import {useForm} from 'react-hook-form';
 import Router from "next/router";
 import styles from '../styles/milkDelivery.module.css';
-
+import {useState, useEffect} from 'react';
 
 
 
@@ -15,6 +15,16 @@ import styles from '../styles/milkDelivery.module.css';
 
 
 export default function MilkDelivery() {
+
+    const pricePerPint = 0.7;
+
+    const [monday, setMonday] = useState(0);
+    const [wednesday, setWednesday] = useState(0);
+    const [friday, setFriday] = useState(0);
+    const [sunday, setSunday] = useState(0);
+
+    const [total, setTotal] = useState(0);
+
 
 
 
@@ -48,6 +58,12 @@ export default function MilkDelivery() {
                 wednesday: data.wednesday,
                 friday: data.friday,
                 sunday: data.sunday,
+                total: (
+                    (parseInt(monday) +
+                    parseInt(wednesday)+
+                    parseInt(friday)+
+                    parseInt(sunday)
+                    ) * pricePerPint).toFixed(2),
             }
         });
 
@@ -121,7 +137,7 @@ const formDefaults= {
     return (<Layout>
         <Header1 text='Milk Delivery - Booking Form' />
 
-
+<p>Orders placed here are for delivery of 1pint bottle of semi skimmed milk. 1 pint of milk costs £0.7</p>
 
 
 
@@ -133,6 +149,7 @@ const formDefaults= {
 <form
     onSubmit={handleSubmit(getFormData)}
     className={styles.form}
+
 
     >
 
@@ -286,7 +303,13 @@ const formDefaults= {
         className={styles.input}
         max='10'
         min='0'
+        onChange={(event)=>{
+            setMonday(event.target.value);
+
+        }}
         />
+
+        <p>£{ (monday*pricePerPint).toFixed(2)}</p>
 </div>  {/* end of .dayOfWeek */}
 
 
@@ -319,7 +342,12 @@ const formDefaults= {
         className={styles.input}
         max='10'
         min='0'
+        onChange={(event)=>{
+            setWednesday(event.target.value);
+
+        }}
         />
+        <p>£{(wednesday*pricePerPint).toFixed(2)}</p>
         </div>  {/* end of .dayOfWeek */}
 
 
@@ -349,7 +377,10 @@ const formDefaults= {
         placeholder="Friday"
         className={styles.input}
         max='10'
-        min='0'/>
+        min='0'
+        onChange={(event)=>{setFriday(event.target.value)}}
+        />
+        <p>£{(friday* pricePerPint ).toFixed(2)}</p>
 </div>  {/* end of .dayOfWeek */}
 
 
@@ -379,8 +410,24 @@ const formDefaults= {
         placeholder="Sunday"
         className={styles.input}
         max='10'
-        min='0'/>
+        min='0'
+        onChange={(event)=>{setSunday(event.target.value)}}/>
+<p>£{(sunday * pricePerPint).toFixed(2)}</p>
+
 </div>  {/* end of .dayOfWeek */}
+
+<hr style={{
+    width: '100%',
+}} />
+
+
+
+<p>total: £{(
+                (parseInt(monday) +
+                parseInt(wednesday)+
+                parseInt(friday)+
+                parseInt(sunday)
+                ) * pricePerPint).toFixed(2)}</p>
 
         </div> {/* end of .daysOfWeekWRAPPER */}
 

@@ -9,7 +9,7 @@ import {useRouter} from "next/router";
 export default function MilkDeliveryThankYou() {
 
     const router = useRouter();
-    const {query: {name,postcode, monday, wednesday, friday, sunday}} = router;
+    const {query: {name,postcode,total, monday, wednesday, friday, sunday}} = router;
 
     let headerText = `Thank you for your order, ${name}`;
     let items = [];
@@ -47,6 +47,19 @@ export default function MilkDeliveryThankYou() {
     return <p key={index}>{item.day}: {item.quatity}</p>;
 })}
 
+
+
+<p style={{
+    backgroundColor: 'grey',
+    padding: '20px',
+    margin: 'auto',
+    width: '50%',
+}}>Total: <span style={{
+                    fontWeight:'900',
+                    color: 'white',
+                    }}>  £{total}
+    </span>
+    </p>
 
     </Layout>);
 };
