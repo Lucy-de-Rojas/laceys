@@ -137,14 +137,21 @@ Front end is engineered on NEXT JS and hosted with Vercel.
     />
 
 <p>
-In this project practised more with mysql and dynamic data search.
+In this project practised more with mysql and dynamic data search at API level.
+
 </p>
 
 
 
 
+<h2>Recommendation:</h2>
+<i>
 
+Lucy worked with our business to help redesign and relaunch our website.  I found her very professional, and understanding of our requirements.  She was easy to work with and we were happy with the outcome of the project.
+<br />
+Will Lacey
 
+</i>
 
 
 <!-- QUICK LINKS: -->
