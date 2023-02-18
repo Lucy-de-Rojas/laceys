@@ -4,7 +4,7 @@ import { mysqlConnect } from "../../utils/connectDB";
 
 
 
-
+// saving to DB from the form:
 export default async function handler(req, res) {
 
     let data = req.body;

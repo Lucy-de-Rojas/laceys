@@ -422,7 +422,13 @@ const formDefaults= {
 
 
 
-<p>total: £{(
+<p style={{
+    textAlign: 'right',
+    width: '100%',
+    fontWeight: 'bold',
+    padding: '20px',
+    marginTop: '20px',
+}}>total: £{(
                 (parseInt(monday) +
                 parseInt(wednesday)+
                 parseInt(friday)+

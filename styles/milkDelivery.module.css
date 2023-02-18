@@ -74,17 +74,17 @@
 
 
 .dayOfWeek {
-    width: 50%;
-    /* background-color: gray; */
+    width: 100%;
+    /* background-color: red; */
 
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: right;
+    /* /* align-items: center; */
 
 }
 
 .dayOfWeek > * {
-    text-align: center;
+    /* text-align: center; */
 }
 
 
