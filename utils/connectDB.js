@@ -11,8 +11,8 @@
 
 const ourIpURL = process.env.HOST;
 const database = 'laceys';
-const password = 'Filipo13';
-const user = 'lucyderojas';
+const password = process.env.PASSWORD;
+const user = process.env.USER;
 
 
 
