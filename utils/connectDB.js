@@ -8,9 +8,9 @@
 // const user = process.env.USER;
 
 
+const database = process.env.DATABASE_NAME;
 
 const ourIpURL = process.env.HOST;
-const database = 'laceys';
 const password = process.env.PASSWORD;
 const user = process.env.USER;
 
