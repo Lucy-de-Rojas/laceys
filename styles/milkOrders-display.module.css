@@ -1,0 +1,37 @@
+
+
+.buttonsWrapper {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    /* background-color: green; */
+    width: 100%;
+
+    margin-bottom: 20px;
+
+}
+
+.buttonsWrapper > * {
+    width: 25%;
+    padding: 20px;
+    margin: 20px 5px;
+    border: 0;
+    border-radius: 10px;
+
+
+    background-color: var(--beige);
+    color: white;
+    font-weight: 900;
+    font-size: 200%;
+}
+
+
+
+
+
+
+
+
+
