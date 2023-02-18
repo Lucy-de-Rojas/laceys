@@ -8,7 +8,7 @@
 
 
 .form {
-    background-color: green;
+    /* background-color: green; */
     box-sizing: border-box;
     padding: 0  20px;
     width: 93%;
@@ -26,6 +26,7 @@
 
     font-size: 1.5rem;
     padding: 20px;
+    margin: 10px;
     border-radius: 5px;
     border: 0;
     box-shadow: 3px 3px 3px grey;
@@ -39,7 +40,8 @@
 
 .input {
 
-    width: 100%;
+    /* width: 100%; */
+    font-weight: bolder;
 
 }
 
@@ -50,8 +52,49 @@
 .submit {
 
     font-family: "suez";
+    background-color: var(--terraCotta);
+    color: white;
 
 }
+
+
+
+.daysOfWeekWRAPPER {
+    background-color: rgba(136, 136, 136, 0.496);
+    width: 100%;
+    border-radius: 10px;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dayOfWeek {
+    width: 50%;
+    /* background-color: gray; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.dayOfWeek > * {
+    text-align: center;
+}
+
+
+
+.dayOfWeek > :nth-child(2) {
+    width: 30%;
+
+}
+
+
 
 
 

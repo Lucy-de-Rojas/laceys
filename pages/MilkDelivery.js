@@ -217,6 +217,7 @@ const formDefaults= {
 
 
         placeholder="address"
+        rows='5'
         className={styles.input}
 
 
@@ -259,15 +260,16 @@ const formDefaults= {
 
 
 
+<div className={styles.daysOfWeekWRAPPER}>
 
 
-
+<div className={styles.dayOfWeek}>
 {/* monday: */}
-Monday:
+<p>Monday:</p>
         {/* name: */}
         <input  {
             ...register('monday', {
-                 max: {
+                max: {
                     value: 10,
                     message: '10 milk bottles limit',
                 },
@@ -285,6 +287,7 @@ Monday:
         max='10'
         min='0'
         />
+</div>  {/* end of .dayOfWeek */}
 
 
 
@@ -295,12 +298,13 @@ Monday:
 
 
 
+<div className={styles.dayOfWeek}>
 {/* wednesday: */}
-Wednesday:
+<p>Wednesday:</p>
         {/* name: */}
         <input  {
             ...register('wednesday', {
-                 max: {
+                max: {
                     value: 10,
                     message: '10 milk bottles limit',
                 },
@@ -316,6 +320,7 @@ Wednesday:
         max='10'
         min='0'
         />
+        </div>  {/* end of .dayOfWeek */}
 
 
 
@@ -324,12 +329,13 @@ Wednesday:
 
 
 
+<div className={styles.dayOfWeek}>
 {/* friday: */}
-Friday:
+<p>Friday:</p>
         {/* name: */}
         <input  {
             ...register('friday', {
-                 max: {
+                max: {
                     value: 10,
                     message: '10 milk bottles limit',
                 },
@@ -344,6 +350,7 @@ Friday:
         className={styles.input}
         max='10'
         min='0'/>
+</div>  {/* end of .dayOfWeek */}
 
 
 
@@ -352,15 +359,13 @@ Friday:
 
 
 
-
-
-
+<div className={styles.dayOfWeek}>
 {/* sunday: */}
-Sunday:
+<p>Sunday:</p>
         {/* name: */}
         <input  {
             ...register('sunday', {
-                 max: {
+                max: {
                     value: 10,
                     message: '10 milk bottles limit',
                 },
@@ -375,14 +380,23 @@ Sunday:
         className={styles.input}
         max='10'
         min='0'/>
+</div>  {/* end of .dayOfWeek */}
+
+        </div> {/* end of .daysOfWeekWRAPPER */}
+
+
+
+
+
+
 
 
 
 {/* submit: */}
-
 <input
                 type="submit"
                 value="Submit"
+                className={styles.submit}
                 />
 </form>
 
