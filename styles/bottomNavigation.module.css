@@ -1,12 +1,14 @@
 .wrapperMain {
-    position: relative;
+    /* position: relative; */
+    width: 100%;
 }
 
 
 .wrapper {
-    /* background-color: green; */
-    position: absolute;
+    background-color: green;
+    position: fixed;
     bottom: 0;
+
     width: 100%;
     /* padding: 50px; */
     text-align: center;

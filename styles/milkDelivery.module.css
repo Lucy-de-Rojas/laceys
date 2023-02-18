@@ -1,0 +1,84 @@
+
+
+.errormessage {
+    color: red;
+}
+
+
+
+
+.form {
+    background-color: green;
+    box-sizing: border-box;
+    padding: 0  20px;
+    width: 93%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+
+}
+
+
+.input, .submit {
+
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 3px 3px 3px grey;
+    font-family: "mainTHIN";
+    background-color: rgb(219, 243, 248);
+
+
+}
+
+
+
+.input {
+
+    width: 100%;
+
+}
+
+
+
+
+
+.submit {
+
+    font-family: "suez";
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* for pc screen and landscape orient: */
+@media only screen and (min-width: 600px) and (orientation: landscape) {
+
+
+
+
+
+    .input {
+
+        width: 50%;
+
+    }
+
+
+
+}
+
+
+

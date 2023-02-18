@@ -37,6 +37,9 @@ export default function BottomNavigation() {
             if(item=='Home') {
                 href='/';
             }
+            if(item=='Milk Delivery') {
+                href="MilkDelivery"
+            }
 
             return <Link
             href={href}
