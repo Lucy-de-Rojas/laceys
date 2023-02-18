@@ -12,6 +12,12 @@ export default function MilkDeliveryThankYou() {
     const {query: {name,postcode,total, monday, wednesday, friday, sunday}} = router;
 
     let headerText = `Thank you for your order, ${name}`;
+
+
+
+
+
+
     let items = [];
 
     if(monday>0) {
