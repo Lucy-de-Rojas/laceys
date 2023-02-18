@@ -67,5 +67,14 @@ export default function MilkDeliveryThankYou() {
     </span>
     </p>
 
+
+
+    <p>We will confirm your order withing 24 hours.
+    </p>
+    <p>
+
+        Thank you for your custom.
+    </p>
+
     </Layout>);
 };

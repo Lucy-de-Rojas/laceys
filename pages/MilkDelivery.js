@@ -138,9 +138,29 @@ const formDefaults= {
     return (<Layout>
         <Header1 text='Milk Delivery - Booking Form' />
 
-<p>Orders placed here are for delivery of 1pint bottle of semi skimmed milk. 1 pint of milk costs £0.7</p>
+<p>Orders placed are for delivery of 1 pint bottle of
+    <br />
+    <span style={{
+        backgroundColor: 'green',
+        padding: '20px 100px',
+        color: 'white',
+        lineHeight: '3',
+    }}>
 
+    semi skimmed milk
+    </span>
 
+        <br />
+
+ 1 pint of milk costs £0.7.
+        <br />
+
+ There is monthly charge for delivery: $10.
+        <br />
+
+ The charges are made in monthly payment in advance. We accept cheques and VISA cards (over the phone).</p>
+
+<br /><br /><br /><br />
 
 
 
