@@ -28,8 +28,7 @@
 
 
 
-
-
+<!-- ABOUT -->
 <img
     src="./public/Media/README/abouts.jpg"
     width="40%"
@@ -40,6 +39,7 @@
 
 
 
+<!-- FRONT END -->
 <a href="#home">Home</a><br />
 <img
     src="./public/Media/README/frontEnd.jpg"
@@ -53,6 +53,7 @@
 
 
 
+<!-- BACK END -->
 <a href="#home">Home</a><br />
 <img
     src="./public/Media/README/backEnd.jpg"
@@ -64,6 +65,7 @@
 
 
 
+<!-- HOOKS & LIBRARIES -->
 <a href="#home">Home</a><br />
 <img
     src="./public/Media/README/hooksAndLibraries.jpg"
@@ -75,6 +77,7 @@
 
 
 
+<!-- SEO -->
 <a href="#home">Home</a><br />
 <img
     src="./public/Media/README/SEOjpg.jpg"
@@ -86,6 +89,7 @@
 
 
 
+<!-- TAKE AWAYS: -->
 <a href="#home">Home</a><br />
 <img
     src="./public/Media/README/takeAways.jpg"
@@ -100,6 +104,7 @@
 
 
 
+<!-- QUICK LINKS: -->
 <a href="#home">Home</a><br />
 <a href="#about">About</a><br />
 <a href="#frontEnd">Front End</a><br />
