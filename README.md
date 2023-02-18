@@ -46,6 +46,9 @@
     width="40%"
     id="frontEnd"
     />
+    <p>
+Front end is engineered on NEXT JS and hosted with Vercel.
+ </p>
 
 
 
@@ -61,7 +64,9 @@
     id="backEnd"
     />
 
-
+<p>
+    Back end is based on NEXT JS pages/api. The actual database is running from raspberry pi on my desk.
+    </p>
 
 
 
@@ -72,6 +77,37 @@
     width="40%"
     id="hooksAndLibraries"
     />
+
+
+
+
+<img
+    src="./public/Media/README/hooksLibraries/formHook.jpg"
+    width="20%"
+    />
+
+
+<img
+    src="./public/Media/README/hooksLibraries/HamburgerReact.jpg"
+    width="20%"
+    />
+
+
+<img
+    src="./public/Media/README/hooksLibraries/Menu13.jpg"
+    width="20%"
+    />
+
+<img
+    src="./public/Media/README/hooksLibraries/mysql2.jpg"
+    width="20%"
+    />
+
+
+
+
+
+
 
 
 
