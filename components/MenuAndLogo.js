@@ -1,6 +1,7 @@
 import Image from "next/image";
+import Link from 'next/link';
 import Hamburger from "hamburger-react";
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 
 
 import { Menu } from "@lucyderojas/menu13-next";
@@ -77,12 +78,14 @@ export default function MenuAndLogo() {
 
 {/* logo: */}
 <div className={styles.logoWrapper}>
+    <Link href="/" >
         <Image
             src="/Media/Photoshoot/Logo.jpg"
             width={1536}
             height={470}
             layout="responsive"
             />
+            </Link>
             </div>
 
 </div> {/* end of .burgerAndLogoWrapper */}

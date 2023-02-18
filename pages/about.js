@@ -2,24 +2,23 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 
-import styles from '../styles/Home.module.css'
 import Layout from '../components/layout'
 import Header1 from '../components/header1'
 import Images from '../components/images'
 
 
 
-export default function Home() {
+export default function About() {
 
 
 
   return (
     <Layout>
       <Head>
-        <title>Welcome to Laceys Family Farm</title>
+        <title>About Laceys Family Farm</title>
       </Head>
 
-<Header1 text="Welcome to Laceys Farm Shop & Butchers" />
+<Header1 text="About Laceys Farm Shop & Butchers" />
 
 
 
@@ -74,6 +73,50 @@ quality local produce.</p>
 
 
 
+
+
+
+{/* 3 images:  dairying chiltern and guerensey cattle society*/}
+{/*
+<div className={styles.imagesWrapper}>
+
+<div className={styles.imageWrapperSINGLE}>
+<Image
+    src="/Media/Photoshoot/BritishDairying.png"
+    width={581}
+    height={154}
+    layout='responsive'
+
+    /></div>
+
+
+
+
+<div className={styles.imageWrapperSINGLE}>
+<Image
+    src="/Media/Photoshoot/Chilterns.png"
+    width={415}
+    height={110}
+    layout='responsive'
+
+    /></div>
+
+
+
+
+
+<div className={styles.imageWrapperSINGLE}>
+<Image
+    src="/Media/Photoshoot/englishGuerensey-cattle-society.png"
+    width={581}
+    height={154}
+    layout='responsive'
+
+    /></div>
+
+
+
+</div> */}
 
 
 

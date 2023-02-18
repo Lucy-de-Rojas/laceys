@@ -1,7 +1,7 @@
 
 
 .burgerAndLogoWrapper {
-    background-color: rgb(237, 143, 143);
+    /* background-color: rgb(237, 143, 143); */
     width: 100%;
     display: flex;
 }
@@ -27,7 +27,7 @@
 .menuWrapper {
     width: 100%;
     position: relative;
-    background-color: green;
+    /* background-color: green; */
 
     transform: translateX(-150%);
     transition: transform  0.8s ease-in-out;

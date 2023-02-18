@@ -1,0 +1,19 @@
+
+.imagesWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    /* background-color: blue; */
+    width: 100%;
+
+}
+
+
+.imageWrapperSINGLE {
+    width: 25%;
+
+}
+
+

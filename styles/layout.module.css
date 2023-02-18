@@ -1,4 +1,35 @@
-.para {
-    background-color: red;
-    /* font-family: 'suez'; */
+
+.wrapper {
+    /* background-color: green; */
+    width: 100%;
 }
+
+
+
+.contentWrapper {
+    /* background-color: rgb(225, 108, 225); */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    padding: 0 40px;
+    margin: 20px 0 100px 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
