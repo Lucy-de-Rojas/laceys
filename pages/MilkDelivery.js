@@ -422,18 +422,60 @@ const formDefaults= {
 
 
 
+
+{/* subtotal: */}
 <p style={{
     textAlign: 'right',
     width: '100%',
     fontWeight: 'bold',
     padding: '20px',
     marginTop: '20px',
-}}>total: £{(
+}}>Sub-total: £{(
                 (parseInt(monday) +
                 parseInt(wednesday)+
                 parseInt(friday)+
                 parseInt(sunday)
-                ) * pricePerPint).toFixed(2)}</p>
+                ) * pricePerPint).toFixed(2)}
+                /week
+
+                </p>
+
+
+
+{/* delivery: */}
+<p style={{
+    textAlign: 'right',
+    width: '100%',
+    fontWeight: 'bold',
+    padding: '20px',
+    marginTop: '20px',
+}}>Delivery charge: £10/month</p>
+
+
+
+
+
+{/* total: */}
+                <p style={{
+    textAlign: 'right',
+    width: '100%',
+    fontWeight: 'bold',
+    padding: '20px',
+    marginTop: '20px',
+}}>Total: £{(
+                (parseInt(monday) +
+                parseInt(wednesday)+
+                parseInt(friday)+
+                parseInt(sunday)
+                ) * pricePerPint*4+10).toFixed(2)}
+                /month
+
+                </p>
+
+
+
+
+
 
         </div> {/* end of .daysOfWeekWRAPPER */}
 
