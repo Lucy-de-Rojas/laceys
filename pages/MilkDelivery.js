@@ -23,7 +23,8 @@ export default function MilkDelivery() {
 
 // getting data from the form:
     async function getFormData(data) {
-        console.log('form data:>>>> ',data);
+
+        // console.log('form data:>>>> ',data);
 
 
 
@@ -33,8 +34,24 @@ export default function MilkDelivery() {
 
         }
 
-        // send data to the back end:
+        // if data correct : send data to the back end:
         else {
+
+
+        // router push to confirmation page:
+        Router.push({
+            pathname: '/milkDelivery-thank-you',
+            query: {
+                name: data.name,
+                postcode: data.postcode,
+                monday: data.monday,
+                wednesday: data.wednesday,
+                friday: data.friday,
+                sunday: data.sunday,
+            }
+        });
+
+
             let respose = await fetch('/api/milkOrder', {
                 method: 'POST',
                 mode: 'cors',
@@ -45,8 +62,31 @@ export default function MilkDelivery() {
                 body: JSON.stringify(data),
             });
 
-        }
+
+
+
+
+
+
+
+
+
+
+
+
+        }   // end of check
+
+
+
+
+
+
+
+
     }
+
+
+
 
 
 
@@ -231,6 +271,9 @@ Monday:
                     value: 10,
                     message: '10 milk bottles limit',
                 },
+                min: {
+                    value: 0,
+                }
             })
         }
 
@@ -240,6 +283,7 @@ Monday:
         placeholder="Monday"
         className={styles.input}
         max='10'
+        min='0'
         />
 
 
@@ -260,13 +304,18 @@ Wednesday:
                     value: 10,
                     message: '10 milk bottles limit',
                 },
+                min: {
+                    value: 0,
+                },
             })
         }
 
         type="number"
         placeholder="Wednesday"
         className={styles.input}
-        max='10'/>
+        max='10'
+        min='0'
+        />
 
 
 
@@ -284,13 +333,17 @@ Friday:
                     value: 10,
                     message: '10 milk bottles limit',
                 },
+                min: {
+                    value: 0,
+                },
             })
         }
 
         type="number"
         placeholder="Friday"
         className={styles.input}
-        max='10'/>
+        max='10'
+        min='0'/>
 
 
 
@@ -311,13 +364,17 @@ Sunday:
                     value: 10,
                     message: '10 milk bottles limit',
                 },
+                min: {
+                    value: 0,
+                },
             })
         }
 
         type="number"
         placeholder="Sunday"
         className={styles.input}
-        max='10'/>
+        max='10'
+        min='0'/>
 
 
 

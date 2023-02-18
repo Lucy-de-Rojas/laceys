@@ -30,7 +30,19 @@ export default async function handler(req, res) {
 
 // if connected to db check:
     if(connection) {
-        console.log('connected to DB!!!!!')
+        console.log('connected to DB!!!!!');
+
+
+        if(data) {
+
+            const query = `insert into milkorders (name, email, address, postcode,monday,wednesday,friday,sunday) values('${data.name}', '${data.email}', '${data.address}','${data.postcode}',${monday}, ${wednesday}, ${friday}, ${sunday})`;
+
+            console.log('query:>>>>> ', query)
+
+            const values = [];
+            const [results] = await connection.execute(query, values);
+
+        }
     }
 
 
