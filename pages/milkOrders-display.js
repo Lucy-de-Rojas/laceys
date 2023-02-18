@@ -93,15 +93,26 @@ export default function MilkOrdersDisplay() {
         <Header1 text='Milk Orders'  />
 
 
-<h2>Deliveries:</h2>
-<p>{dayOfWeek}</p>
+<h2>Delivery days:</h2>
+<p>Selected:
+     <span style={{
+        padding: '0 20px',
+        fontWeight: '900',
+
+     }}>
+
+     {dayOfWeek}
+     </span>
+
+     </p>
+
 
 <div className={styles.buttonsWrapper}>
         <button onClick={selectDayOfWeek}>Monday</button>
         <button onClick={selectDayOfWeek}>Wednesday</button>
         <button onClick={selectDayOfWeek}>Friday</button>
         <button onClick={selectDayOfWeek}>Sunday</button>
-        <button onClick={()=>{setDayOfWeek('')}}>Reset</button>
+        <button onClick={()=>{setDayOfWeek('')}}>All</button>
 </div>
 
 
