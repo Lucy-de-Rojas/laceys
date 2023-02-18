@@ -4,7 +4,71 @@
     src="./public/Media/Photoshoot/Logo.jpg"
     width="70%"
     />
-    <p>hello</p>
+
+
+
+<img
+    src="./public/Media/README/quickLinks.jpg"
+    width="40%"
+    />
+
+
+
+
+<img
+    src="./public/Media/README/abouts.jpg"
+    width="40%"
+    />
+
+
+
+
+<img
+    src="./public/Media/README/frontEnd.jpg"
+    width="40%"
+    />
+
+
+
+<img
+    src="./public/Media/README/backEnd.jpg"
+    width="40%"
+    />
+
+
+
+
+
+<img
+    src="./public/Media/README/hooksAndLibraries.jpg"
+    width="40%"
+    />
+
+
+
+
+
+<img
+    src="./public/Media/README/SEOjpg.jpg"
+    width="40%"
+    />
+
+
+
+<img
+    src="./public/Media/README/takeAways.jpg"
+    width="40%"
+    />
+
+
+
+
+
+
+
+
+
+
 
 
     <!-- quick links: -->
