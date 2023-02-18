@@ -171,7 +171,6 @@ Will Lacey
 
 <!-- QUICK LINKS: -->
 <h2>Quick Links</h2>
-<hr />
 <img
     src="./public/Media/README/quickLinks.jpg"
     width="40%"
