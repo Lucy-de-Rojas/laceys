@@ -136,6 +136,10 @@ Front end is engineered on NEXT JS and hosted with Vercel.
     id="takeAways"
     />
 
+<p>
+In this project practised more with mysql and dynamic data search.
+</p>
+
 
 
 
@@ -144,6 +148,12 @@ Front end is engineered on NEXT JS and hosted with Vercel.
 
 
 <!-- QUICK LINKS: -->
+
+<hr />
+<img
+    src="./public/Media/README/quickLinks.jpg"
+    width="40%"
+    /> <br />
 <a href="#home">Home</a><br />
 <a href="#about">About</a><br />
 <a href="#frontEnd">Front End</a><br />
