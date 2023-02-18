@@ -15,6 +15,8 @@ export default async function handler(req, res) {
     let friday = parseInt(data.friday);
     let sunday = parseInt(data.sunday);
 
+    let total =((monday + wednesday + friday + sunday)*0.7).toFixed(2);
+
 
 
 
@@ -35,7 +37,7 @@ export default async function handler(req, res) {
 
         if(data) {
 
-            const query = `insert into milkorders (name, email, address, postcode,monday,wednesday,friday,sunday) values('${data.name}', '${data.email}', '${data.address}','${data.postcode}',${monday}, ${wednesday}, ${friday}, ${sunday})`;
+            const query = `insert into milkorders (name, email, address, postcode,monday,wednesday,friday,sunday, total) values('${data.name}', '${data.email}', '${data.address}','${data.postcode}',${monday}, ${wednesday}, ${friday}, ${sunday}, ${total})`;
 
             console.log('query:>>>>> ', query)
 
