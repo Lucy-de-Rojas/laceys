@@ -63,7 +63,7 @@ export default function MilkDelivery() {
                     parseInt(wednesday)+
                     parseInt(friday)+
                     parseInt(sunday)
-                    ) * pricePerPint).toFixed(2),
+                    ) * pricePerPint*4+10).toFixed(2),
             }
         });
 
