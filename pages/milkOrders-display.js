@@ -94,14 +94,14 @@ export default function MilkOrdersDisplay() {
 
 
 <h2>Delivery days:</h2>
-<p>Selected:
+<p>Selected day:
      <span style={{
         padding: '0 20px',
         fontWeight: '900',
 
      }}>
 
-     {dayOfWeek}
+     {dayOfWeek? dayOfWeek : 'all'}
      </span>
 
      </p>
@@ -113,6 +113,31 @@ export default function MilkOrdersDisplay() {
         <button onClick={selectDayOfWeek}>Friday</button>
         <button onClick={selectDayOfWeek}>Sunday</button>
         <button onClick={()=>{setDayOfWeek('')}}>All</button>
+
+
+        {/* today button: */}
+        <button onClick={()=>{
+
+            let daysOfWeek = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+
+            let date = new Date();
+            let dayOfWeekToday = date.getDay();
+
+            console.log('today:>>>',dayOfWeekToday, daysOfWeek[parseInt(dayOfWeekToday-1)]);
+
+            if(dayOfWeekToday!= 'monday' || dayOfWeekToday != 'wednesday' || dayOfWeekToday != 'friday' || dayOfWeekToday != 'sunday') {
+                setOrders([]);
+            }
+            else {
+
+                setDayOfWeek(dayOfWeek[parseInt(dayOfWeekToday)]);
+            }
+
+
+
+
+
+        }}>Today</button>
 </div>
 
 
