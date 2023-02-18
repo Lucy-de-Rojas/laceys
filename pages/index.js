@@ -16,6 +16,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
+      <meta name="google-site-verification" content="-U70Yo_PUyJNjtc9GuyqT4vWVG0UDMjNYE247B5sORY" />
         <title>Welcome to Laceys Family Farm</title>
       </Head>
 
