@@ -109,7 +109,7 @@ Front end is engineered on NEXT JS and hosted with Vercel.
     src="./public/Media/README/hooksLibraries/mysql2.jpg"
     width="20%"
     alt="mysql2"
-    />
+    /><br />
 
 
 
@@ -117,6 +117,15 @@ Front end is engineered on NEXT JS and hosted with Vercel.
 
 
 <!-- PHOTOGRAPHY -->
+<a href="#home">Home</a><br />
+<img
+    src="./public/Media/README/photography.jpg"
+    width="40%"
+    id="seo"
+    />
+<h2>Photography</h2>
+
+
 
 
 
