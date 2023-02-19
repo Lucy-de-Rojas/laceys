@@ -24,7 +24,7 @@ export default function Home() {
 
 
 
-
+{/* 🟥 */}
 {/* image we are laceys, and a photo of a cow */}
 <Images images={[{
   src: '/Media/Photoshoot/ComposedImage.png',
