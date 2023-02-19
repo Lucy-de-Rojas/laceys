@@ -34,6 +34,10 @@ export default function Home() {
   src: '/Media/Photoshoot/ComposedImage.png',
   width: 1173,
   height: 935,
+}, {
+  src: '/Media/Photoshoot/Cow1.jpg',
+  width: 1173,
+  height: 935,
 }]} />
 
 
