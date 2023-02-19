@@ -37,7 +37,7 @@
     />
 <!-- <h2>About</h2> -->
 <p>
-About this project
+I was lucky to work with The Lacey family to help them promote their business and keep updated with customers. The site had a responsive feature included and was visually improved. 
 </p>
 
 
