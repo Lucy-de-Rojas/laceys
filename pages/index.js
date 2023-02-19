@@ -31,7 +31,7 @@ export default function Home() {
   width: 1173,
   height: 935,
 },{
-  src: '/Media/Photoshoot/cow1.jpg',
+  src: '/Media/Photoshoot/ComposedImage.png',
   width: 1173,
   height: 935,
 }]} />
