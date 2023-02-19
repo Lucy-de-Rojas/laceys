@@ -37,7 +37,7 @@
     />
 <!-- <h2>About</h2> -->
 <p>
-I was lucky to work with The Lacey family to help them promote their business and keep updated with customers. The site had a responsive feature included and was visually improved. 
+I was lucky to work with The Lacey family to help them promote their business and keep updated with customers. The site had a responsive feature included and was visually improved. We also worked together to create their product photography.
 </p>
 
 
@@ -155,6 +155,9 @@ Front end is engineered on NEXT JS and hosted with Vercel.
     id="seo"
     />
 <!-- <h2>SEO</h2> -->
+<p>
+about seao here
+</p>
 
 
 
