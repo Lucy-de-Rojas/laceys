@@ -179,7 +179,7 @@ Pages were planned so anyone looking for milk delivery, farm shop, local produce
 <p>
 In this project I connected front and back end at 0 cost by hosting front end with Vercel and for back end utilising my old Raspberry Pi.
 <br /><br />
-One issue I had to deal with was working out how to keep public ip to our home router updated so the front end can connect anytime, even after BT has changed our IP. I solved that by creating next js repository on github linked to vercel. Then I set up a cron job on the Raspberry Pi to run every minute of the day, to check for our IP using ifconfig.me/ip link. Result from this check was directed to a file in NEXT JS app and finished it all with git add . && git commit -m 'updated' && git push command in the cron job.
+One issue I had to deal with was working out how to keep public ip to our home router updated so the front end can connect anytime, even after BT has changed our IP. I solved that by creating next js repository on github linked to vercel. Then I set up a cron job on the Raspberry Pi to run every minute of the day, to check for our IP using ifconfig.me/ip link. Result from this check was directed to a particular file in NEXT JS app and finished it all with git add . && git commit -m 'updated' && git push command in the cron job.
 
 
 </p>
