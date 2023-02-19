@@ -142,9 +142,8 @@ const formDefaults= {
     <br />
     <span style={{
         backgroundColor: 'green',
-        // padding: '20px 100px',
+        padding: '0px 19px',
         color: 'white',
-        // lineHeight: '3',
     }}>
 
     semi skimmed milk

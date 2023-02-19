@@ -91,7 +91,7 @@
     display: flex;
     flex-direction: column;
     justify-content: right;
-    /* /* align-items: center; */
+    align-items: center;
 
 }
 
@@ -162,6 +162,19 @@
 
 
 
+    .dayOfWeek {
+        display: grid;
+        grid-template-columns: 4fr 5fr 1fr;
+
+
+    }
+
+
+    .dayOfWeek > .input {
+
+        width: 50%;
+        margin: 0 20px;
+    }
 
 
 

@@ -33,3 +33,24 @@
 
 
 
+/* for pc screen and landscape orient: */
+@media only screen and (min-width: 600px) and (orientation: landscape) {
+
+
+    .wrapper {
+        padding: 0 50px;
+        width: 70%;
+        margin: auto;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+

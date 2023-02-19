@@ -1,11 +1,12 @@
 .wrapperMain {
     /* position: relative; */
     width: 100%;
+    box-sizing: border-box;
 }
 
 
 .wrapper {
-    /* background-color: green; */
+    background-color: green;
     position: fixed;
     bottom: 0;
 
@@ -29,3 +30,27 @@
 
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+/* for pc screen and landscape orient: */
+@media only screen and (min-width: 600px) and (orientation: landscape) {
+
+
+    .wrapper {
+        width: 67%;
+    }
+
+
+
+
+
+
+}
+
+
