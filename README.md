@@ -169,7 +169,7 @@ Will Lacey
 </p>
 
 <img
-    src="./public/Media/README/WillLacey.jpg"
+    src="./public/Media/Photoshoot/WillLacey.jpg"
     width="40%"
     id="takeAways"
     />
