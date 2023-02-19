@@ -24,6 +24,19 @@
 
 
 
+.disclaimer {
+    background-color: yellow;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 
 
 

@@ -22,9 +22,15 @@ export default function Layout({children}) {
         {/* favicon: */}
     <link rel="icon" href="/Media/CowFavicon.ico" />
     </Head>
-    <MenuAndLogo />
-    <div className={styles.contentWrapper}>
 
+    <p className={styles.disclaimer}>
+    This site is a copy version from 2014-2016.
+    <br />
+    To visit current site please visit this link <a href="https://www.laceysfamilyfarm.co.uk/">Laceys</a>.
+</p>
+    <MenuAndLogo />
+
+    <div className={styles.contentWrapper}>
 
 
 
