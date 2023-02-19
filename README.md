@@ -54,7 +54,7 @@ I was lucky to work with The Lacey family to help them promote their business an
     />
 <!-- <h2>Front End</h2> -->
 <p>
-Front end is engineered on NEXT JS and hosted with Vercel.
+Original website from 2014 was created in html and css. Version on this repository is re-created in NEXT JS and hosted with Vercel.
  </p>
 
 
