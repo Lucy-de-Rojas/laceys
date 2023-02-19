@@ -28,7 +28,7 @@
 
 
 
-
+<br /><br />
 <!-- ABOUT -->
 <img
     src="./public/Media/README/abouts.jpg"
@@ -42,6 +42,7 @@
 
 
 <!-- FRONT END -->
+<br /><br />
 <a href="#home">Home</a><br />
 <img
     src="./public/Media/README/frontEnd.jpg"
@@ -49,7 +50,7 @@
     id="frontEnd"
     />
 <!-- <h2>Front End</h2> -->
-    <p>
+<p>
 Front end is engineered on NEXT JS and hosted with Vercel.
  </p>
 
@@ -60,6 +61,7 @@ Front end is engineered on NEXT JS and hosted with Vercel.
 
 
 <!-- BACK END -->
+<br /><br />
 <a href="#home">Home</a><br />
 <img
     src="./public/Media/README/backEnd.jpg"
@@ -74,7 +76,11 @@ Front end is engineered on NEXT JS and hosted with Vercel.
 
 
 
+
+
+
 <!-- HOOKS & LIBRARIES -->
+<br /><br />
 <a href="#home">Home</a><br />
 <img
     src="./public/Media/README/hooksAndLibraries.jpg"
@@ -117,6 +123,7 @@ Front end is engineered on NEXT JS and hosted with Vercel.
 
 
 <!-- PHOTOGRAPHY -->
+<br /><br />
 <a href="#home">Home</a><br />
 <img
     src="./public/Media/README/photography.jpg"
@@ -133,6 +140,7 @@ Front end is engineered on NEXT JS and hosted with Vercel.
 
 
 <!-- SEO -->
+<br /><br />
 <a href="#home">Home</a><br />
 <img
     src="./public/Media/README/SEOjpg.jpg"
@@ -146,6 +154,7 @@ Front end is engineered on NEXT JS and hosted with Vercel.
 
 
 <!-- TAKE AWAYS: -->
+<br /><br />
 <a href="#home">Home</a><br />
 <img
     src="./public/Media/README/takeAways.jpg"
@@ -161,7 +170,9 @@ In this project practised more with mysql and dynamic data search at API level.
 
 
 
-<!-- RECOMMENDATION: --><a href="#home">Home</a><br />
+<!-- RECOMMENDATION: -->
+<br /><br />
+<a href="#home">Home</a><br />
 <img
     src="./public/Media/README/recommendation.jpg"
     width="40%"
@@ -182,6 +193,10 @@ Will Lacey
     width="60%"
     id="takeAways"
     />
+
+
+
+
 
 
 
