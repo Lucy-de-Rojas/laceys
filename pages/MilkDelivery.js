@@ -142,9 +142,9 @@ const formDefaults= {
     <br />
     <span style={{
         backgroundColor: 'green',
-        padding: '20px 100px',
+        // padding: '20px 100px',
         color: 'white',
-        lineHeight: '3',
+        // lineHeight: '3',
     }}>
 
     semi skimmed milk
@@ -265,6 +265,9 @@ const formDefaults= {
 
 
 
+
+
+
 {/* postcode: */}
    <input  {
             ...register('postcode', {
@@ -295,6 +298,15 @@ const formDefaults= {
 
 
         /><p className={styles.errormessage}>{errors.postcode?.message}</p>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -335,7 +347,7 @@ const formDefaults= {
 
 
 
-
+<br /><br /><br />
 
 
 
@@ -372,6 +384,7 @@ const formDefaults= {
         </div>  {/* end of .dayOfWeek */}
 
 
+        <br /><br /><br />
 
 
 
@@ -409,6 +422,7 @@ const formDefaults= {
 
 
 
+<br /><br /><br />
 
 
 <div className={styles.dayOfWeek}>
@@ -437,21 +451,18 @@ const formDefaults= {
 
 </div>  {/* end of .dayOfWeek */}
 
-<hr style={{
-    width: '100%',
-}} />
+
+
+
+
+<hr className={styles.hr} />
 
 
 
 
 {/* subtotal: */}
-<p style={{
-    textAlign: 'right',
-    width: '100%',
-    fontWeight: 'bold',
-    padding: '20px',
-    marginTop: '20px',
-}}>Sub-total: £{(
+<p className={styles.subtotals}>
+    Sub-total:<br /> £{(
                 (parseInt(monday) +
                 parseInt(wednesday)+
                 parseInt(friday)+
@@ -464,26 +475,13 @@ const formDefaults= {
 
 
 {/* delivery: */}
-<p style={{
-    textAlign: 'right',
-    width: '100%',
-    fontWeight: 'bold',
-    padding: '20px',
-    marginTop: '20px',
-}}>Delivery charge: £10/month</p>
-
+<p className={styles.subtotals}>Delivery charge:<br /> £10/month</p>
 
 
 
 
 {/* total: */}
-                <p style={{
-    textAlign: 'right',
-    width: '100%',
-    fontWeight: 'bold',
-    padding: '20px',
-    marginTop: '20px',
-}}>Total: £{(
+                <p className={styles.subtotals}>Total:<br /> £{(
                 (parseInt(monday) +
                 parseInt(wednesday)+
                 parseInt(friday)+

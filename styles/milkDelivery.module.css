@@ -24,13 +24,17 @@
 
 .input, .submit {
 
+    box-sizing: border-box;
+
     font-size: 1.5rem;
+
     padding: 20px;
-    margin: 10px;
+    margin: 10px 0;
+
     border-radius: 5px;
     border: 0;
     box-shadow: 3px 3px 3px grey;
-    font-family: "mainTHIN";
+    font-family: "textMe";
     background-color: rgb(219, 243, 248);
 
 
@@ -40,8 +44,9 @@
 
 .input {
 
-    /* width: 100%; */
+    width: 100%;
     font-weight: bolder;
+    text-align: center;
 
 }
 
@@ -59,12 +64,17 @@
 
 
 
+
+
+
+
+
 .daysOfWeekWRAPPER {
     background-color: rgba(136, 136, 136, 0.496);
     width: 100%;
     border-radius: 10px;
 
-    padding: 20px;
+    padding: 20px ;
 
     display: flex;
     flex-direction: column;
@@ -75,13 +85,16 @@
 
 .dayOfWeek {
     width: 100%;
+    box-sizing: border-box;
     /* background-color: red; */
 
     display: flex;
+    flex-direction: column;
     justify-content: right;
     /* /* align-items: center; */
 
 }
+
 
 .dayOfWeek > * {
     /* text-align: center; */
@@ -90,9 +103,47 @@
 
 
 .dayOfWeek > :nth-child(2) {
-    width: 30%;
+    /* width: 70%; */
 
 }
+
+
+
+
+
+.subtotals {
+    /* text-align: right; */
+    width: 100%;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 20px;
+    /* background-color: red; */
+
+    font-size: 1.9rem;
+
+
+}
+
+
+
+
+
+
+
+
+.hr {
+    width: 100%;
+    border: 2px  solid var(--terraCotta);
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -113,15 +164,9 @@
 
 
 
-    .input {
-
-        width: 50%;
-
-    }
 
 
 
 }
-
 
 

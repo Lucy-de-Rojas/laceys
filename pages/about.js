@@ -59,7 +59,6 @@ and see us soon!</p>
 
 
 {/* images: from grass to glass: */}
-
 <Images images={[{
   src: '/Media/Photoshoot/fromGrassToGlass.png',
   width: 789,
@@ -91,50 +90,13 @@ Postcodes)</p>
 
 
 
-{/* 3 images:  dairying chiltern and guerensey cattle society*/}
-{/*
-<div className={styles.imagesWrapper}>
 
-<div className={styles.imageWrapperSINGLE}>
-<Image
-    src="/Media/Photoshoot/BritishDairying.png"
-    width={581}
-    height={154}
-    layout='responsive'
-
-    /></div>
-
-
-
-
-<div className={styles.imageWrapperSINGLE}>
-<Image
-    src="/Media/Photoshoot/Chilterns.png"
-    width={415}
-    height={110}
-    layout='responsive'
-
-    /></div>
-
-
-
-
-
-<div className={styles.imageWrapperSINGLE}>
-<Image
-    src="/Media/Photoshoot/englishGuerensey-cattle-society.png"
-    width={581}
-    height={154}
-    layout='responsive'
-
-    /></div>
-
-
-
-</div> */}
-
-
-
+{/* images: from grass to glass: */}
+<Images images={[{
+  src: '/Media/Photoshoot/milkCreamIcecream.jpeg',
+  width: 789,
+  height: 588,
+}]} />
 
 
     </Layout>
