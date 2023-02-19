@@ -75,7 +75,43 @@ Original website from 2014 was created in html and css. Version on this reposito
 
 <p>
     Back end is based on NEXT JS pages/api. The actual database is running from raspberry pi on my desk.
-    </p>
+
+
+</p>
+
+
+
+
+
+
+
+
+
+
+
+<!-- ORDERS DASHBOARD    -->
+<br /><br />
+<img
+    src="./public/Media/README/ordersDashboard.jpg"
+    width="40%"
+    alt="order dashboard"
+    />
+<p>
+We created a Orders Dashboard where the milk deliveries are displayed. These can be sorted based on the day of the week, today or simply see all of them.
+</p>
+
+<img
+    src="./public/Media/Photoshoot/ordersDashboard.jpg"
+    width="80%"
+    alt="order dashboard"
+    />
+
+
+
+
+
+
+
 
 
 
@@ -90,7 +126,6 @@ Original website from 2014 was created in html and css. Version on this reposito
     width="40%"
     id="hooksAndLibraries"
     />
-<!-- <h2>Hooks & Libraries</h2> -->
 
 
 
