@@ -170,7 +170,7 @@ Will Lacey
 
 <img
     src="./public/Media/Photoshoot/WillLacey.jpg"
-    width="40%"
+    width="60%"
     id="takeAways"
     />
 
