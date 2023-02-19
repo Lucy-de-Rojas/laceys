@@ -135,7 +135,7 @@ Front end is engineered on NEXT JS and hosted with Vercel.
     />
 <!-- <h2>Photography</h2> -->
 <p>
-We created series of photographs of The Lacey Farm produce, mainly focusing on the dairy section.
+We created series of photographs of The Lacey Farm produce, mainly focusing on the dairy section with farming theme.
 </p>
 <img
     src="./public/Media/Photoshoot/milkCreamIcecream.jpeg"
