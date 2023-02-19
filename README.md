@@ -134,6 +134,9 @@ Front end is engineered on NEXT JS and hosted with Vercel.
     id="photography title"
     />
 <!-- <h2>Photography</h2> -->
+<p>
+about photography here
+</p>
 <img
     src="./public/Media/Photoshoot/milkCreamIcecream.jpeg"
     width="60%"
@@ -156,7 +159,7 @@ Front end is engineered on NEXT JS and hosted with Vercel.
     />
 <!-- <h2>SEO</h2> -->
 <p>
-about seao here
+Pages were planned so anyone looking for milk delivery, farm shop, local produce or local butcher in Buckinghamshire or Slough would have Lacey Farm pages in the search results.
 </p>
 
 
