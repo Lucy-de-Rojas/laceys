@@ -168,6 +168,12 @@ Lucy worked with our business in years 2014-2016 to help redesign and relaunch o
 Will Lacey
 </p>
 
+<img
+    src="./public/Media/README/WillLacey.jpg"
+    width="40%"
+    id="takeAways"
+    />
+
 
 
 
